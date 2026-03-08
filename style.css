@@ -1,0 +1,53 @@
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f6f8;
+text-align:center;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#1e88e5;
+color:white;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+.hero{
+padding:100px;
+background:#2196f3;
+color:white;
+}
+
+.btn{
+background:white;
+padding:10px 20px;
+text-decoration:none;
+display:inline-block;
+margin-top:10px;
+}
+
+.produk{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:white;
+padding:20px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.rating span{
+font-size:30px;
+cursor:pointer;
+}
